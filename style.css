@@ -1,0 +1,430 @@
+/* พื้นหลังสีเหลืองอ่อน + วงกลมหลายสี */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fff3c9; /* เหลืองอ่อน */
+  background-image: 
+    radial-gradient(circle at 10% 20%, #f8bfbf 100px, transparent 0),
+    radial-gradient(circle at 80% 30%, #c7ecd6 80px, transparent 0),
+    radial-gradient(circle at 30% 70%, #d7c4e7 120px, transparent 0),
+    radial-gradient(circle at 70% 80%, #f8bfbf 150px, transparent 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* หัวข้อ */
+h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+/* ปุ่ม */
+.btn {
+  background: rgba(255,255,255,0.7);
+  padding: 15px 40px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.9);
+  transform: scale(1.05);
+}
+
+/* กรอบรูปภาพ */
+.img-frame {
+  border: 5px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.2);
+  margin: 20px 0;
+  max-width: 600px; /* ขนาดพอเหมาะ */
+  width: 90%;
+  background: #fffaf2;
+  padding: 10px;
+}
+
+.img-frame img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+/* กรอบข้อความ */
+.text-frame {
+  border: 3px solid #ffb6c1;
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 700px;
+  width: 90%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+}
+/* พื้นหลังสีเหลืองอ่อน + วงกลมหลายสี */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fff3c9; /* เหลืองอ่อน */
+  background-image: 
+    radial-gradient(circle at 10% 20%, #f8bfbf 100px, transparent 0),
+    radial-gradient(circle at 80% 30%, #c7ecd6 80px, transparent 0),
+    radial-gradient(circle at 30% 70%, #d7c4e7 120px, transparent 0),
+    radial-gradient(circle at 70% 80%, #f8bfbf 150px, transparent 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* แถบด้านบน */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc4b2;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 20px;
+  font-size: 20px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.navbar a.active {
+  background-color: #c7bfff;
+  color: black;
+}
+
+.navbar a:hover {
+  opacity: 0.85;
+}
+
+/* หัวข้อ */
+h1 {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* ปุ่ม */
+.btn {
+  background: rgba(255,255,255,0.7);
+  padding: 15px 40px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.9);
+  transform: scale(1.05);
+}
+
+/* กรอบรูปภาพ */
+.img-frame {
+  border: 5px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.2);
+  margin: 20px 0;
+  max-width: 600px;
+  width: 90%;
+  background: #fffaf2;
+  padding: 10px;
+}
+
+.img-frame img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+/* กรอบข้อความ */
+.text-frame {
+  border: 3px solid #ffb6c1;
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 700px;
+  width: 90%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+}
+/* 🔝 Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  width: 95%;
+  max-width: 1000px;
+}
+
+/* ปุ่มใน Navbar */
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 20px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+  color: #333;
+}
+
+/* สีแต่ละปุ่ม */
+.navbar a.home {
+  background-color: #ffc4b2; /* ชมพูพีช */
+}
+.navbar a.menu {
+  background-color: #c7ecd6; /* เขียวมิ้นท์ */
+}
+.navbar a.recipe {
+  background-color: #d7c4e7; /* ม่วงพาสเทล */
+}
+.navbar a.contact {
+  background-color: #ffe0b2; /* ส้มพาสเทล */
+}
+
+/* สีเมื่อ Active (ปุ่มที่เลือกอยู่) */
+.navbar a.active {
+  border: 3px solid #fff;
+  color: #000;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Hover ให้เข้มขึ้นนิดหน่อย */
+.navbar a:hover {
+  filter: brightness(0.9);
+}
+/* 📦 กรอบข้อความ */
+.text-frame {
+  border: 3px solid #ffb6c1;       /* เส้นขอบสีชมพูอ่อน */
+  border-radius: 15px;             /* มุมโค้งมน */
+  background: #fff;                /* พื้นหลังขาว */
+  padding: 20px;                   /* เว้นขอบด้านใน */
+  margin: 20px 0;                  /* เว้นระยะห่างด้านนอก */
+  max-width: 700px;                /* กำหนดความกว้างสูงสุด */
+  width: 90%;                      /* ขยายตามจอ */
+  font-size: 1.2rem;               /* ขนาดตัวอักษร */
+  line-height: 1.8;                /* ระยะห่างบรรทัด */
+  color: #333;                     /* สีข้อความ */
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1); /* เงาเบาๆ */
+  text-align: center;              /* จัดข้อความตรงกลาง */
+}
+/* 🖼️ กล่องรวมรูปภาพเรียงแนวนอน */
+.img-row {
+  display: flex;
+  justify-content: center;   /* จัดให้อยู่กึ่งกลาง */
+  flex-wrap: wrap;           /* ถ้าจอเล็กจะตัดลงบรรทัดใหม่ */
+  gap: 20px;                 /* ระยะห่างระหว่างรูป */
+  margin: 20px 0;
+}
+
+/* ใช้กรอบภาพที่ออกแบบไว้ */
+.img-frame {
+  border: 4px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.15);
+  background: #fffdf7;
+  padding: 8px;
+  width: 220px;              /* ขนาดพอเหมาะ */
+  flex-shrink: 0;            /* ไม่ให้ย่อเล็กจนเกินไป */
+}
+
+.img-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+.img-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+/* 🎨 พื้นหลัง */
+body {
+  background-color: #fff6d5;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📌 แถบเมนู */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #f8c5b5;
+  padding: 15px;
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: #ff9f80;
+}
+
+.navbar a.active {
+  background: #f79b5b;
+  color: white;
+}
+
+/* 🎨 พื้นหลัง */
+body {
+  background-color: #fff6d5;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📌 แถบเมนู */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #f8c5b5;
+  padding: 15px;
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: #ff9f80;
+}
+
+.navbar a.active {
+  background: #f79b5b;
+  color: white;
+}
+
+/* 🎨 พื้นหลัง */
+body {
+  background-color: #fff6d5;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📌 แถบเมนู */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #f8c5b5;
+  padding: 15px;
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: #ff9f80;
+}
+
+.navbar a.active {
+  background: #f79b5b;
+  color: white;
+}
+
+/* 📞 กล่องข้อมูลติดต่อ */
+.contact-box {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 📱 แถวข้อมูล */
+.contact-row {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* 🖼️ ไอคอน */
+.contact-row img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.15);
+}
+
+/* 📝 ข้อความ */
+.contact-text {
+  background: #c8f3f4;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
